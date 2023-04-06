@@ -1,0 +1,39 @@
+.element{
+     color: #55c073;
+}
+#pep{
+    color: pink;
+}
+div{
+    color: rgb(206, 124, 138);
+}
+div[pep]{
+    color: rgb(3, 3, 198);
+} 
+p{
+    color: greenyellow;
+    background: transparent;
+    border: #55c073 double 2px;
+    border-radius: 10px 20px 30px 40px;
+}
+.logo {
+    background-image: url(../img/pngwing.com.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 150px;
+    border: #000000 1px solid;
+}
+.light div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
