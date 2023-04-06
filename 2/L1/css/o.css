@@ -1,0 +1,30 @@
+ul{
+    font-family:Arial;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: blueviolet;
+}
+ul :hover{
+    color: red;
+    text-decoration: none;
+}
+div.parent{
+    height: 250px;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+}
+.parent div:nth-child(1){
+    color: red;
+    order: 1;
+}
+.parent div:nth-child(4){
+    align-self: flex-end;
+}
